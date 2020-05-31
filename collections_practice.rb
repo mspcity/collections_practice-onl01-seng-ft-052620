@@ -44,4 +44,5 @@ end
 def add_s(array)
   array.each do |element|
     element + "s"
+  end
 end
