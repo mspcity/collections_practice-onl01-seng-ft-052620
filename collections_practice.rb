@@ -44,7 +44,7 @@ end
 def add_s(array)
   array.map do |element|
     if array[1]
-      element
+      return element
     else
       element + "s"
     end
