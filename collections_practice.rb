@@ -44,6 +44,6 @@ end
 def add_s(array)
   new_array = []
   array.map do |element|
-     new_array << "#{element + "s"}"
+     new_array << element + "s"
   end
 end
