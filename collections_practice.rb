@@ -7,5 +7,6 @@ def sort_array_desc(array)
   arr.reverse
 end
 
-def sort_array_char_count
+def sort_array_char_count(word)
+  array.length.sort
 end
