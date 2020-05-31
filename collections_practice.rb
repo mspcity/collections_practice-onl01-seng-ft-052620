@@ -42,11 +42,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map do |element|
-    if array[1] == element
-      element
-    else
-      element + "s"
-    end
+  new_array = []
+  array.each_with_index |element, index|
+  if index != 1
+    element = element + "s"
   end
+    new_array << element
 end
