@@ -4,5 +4,5 @@ end
 
 def sort_array_desc(array)
   arr = array.sort
-  arry.reverse
+  arr.reverse
 end
