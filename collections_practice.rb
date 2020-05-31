@@ -42,7 +42,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |element|
+  array.map do |element|
     return "#{element + "s"}"
   end
 end
