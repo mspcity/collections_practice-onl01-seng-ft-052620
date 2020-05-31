@@ -43,7 +43,7 @@ end
 
 def add_s(array)
   new_array = []
-  array.collect do |element|
-     new_array << element + "s"
+  array.each do |element|
+    element + "s"
   end
 end
