@@ -43,6 +43,6 @@ end
 
 def add_s(array)
   array.each do |element|
-    #{element + "s"}
+    "#{element + "s"}""
   end
 end
